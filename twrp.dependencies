@@ -1,8 +1,8 @@
 [
   {
     "remote": "github",
-    "repository": "boedhack99/kernel_xiaomi_spes",
-    "target_path": "kernel/xiaomi/spes",
+    "repository": "boedhack99/kernel_xiaomi_veux",
+    "target_path": "kernel/xiaomi/veux",
     "revision": "main"
   }
 ]

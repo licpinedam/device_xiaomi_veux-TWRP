@@ -1,6 +1,6 @@
-ro.display.series=Redmi Note 11
-ro.product.board=spes
-ro.board.platform=bengal
+ro.display.series=Redmi Note 11 Pro 5G
+ro.product.board=veux
+ro.board.platform=holi
 sys.usb.controller=4e00000.dwc3
 sys.usb.rndis.func.name=rndis_bam
 sys.usb.rmnet.func.name=rmnet_bam

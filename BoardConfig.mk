@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/spes
+DEVICE_PATH := device/xiaomi/veux
 
 # APEX
 DEXPREOPT_GENERATE_APEX_IMAGE := true
@@ -14,16 +14,16 @@ TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
 TARGET_CPU_ABI := arm64-v8a
 TARGET_CPU_ABI2 :=
-TARGET_CPU_VARIANT := generic
+TARGET_CPU_VARIANT := kryo300
 
 TARGET_2ND_ARCH := arm
-TARGET_2ND_ARCH_VARIANT := armv8-a
+TARGET_2ND_ARCH_VARIANT := armv8-2a
 TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
-TARGET_2ND_CPU_VARIANT := generic
+TARGET_2ND_CPU_VARIANT := cortex-a75
 
 # Assertation
-TARGET_OTA_ASSERT_DEVICE := spes,spesn
+TARGET_OTA_ASSERT_DEVICE := veux
 
 # A/B
 AB_OTA_UPDATER := true
@@ -43,7 +43,7 @@ TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
 TARGET_USE_QTI_BT_STACK := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := bengal
+TARGET_BOOTLOADER_BOARD_NAME := holi
 TARGET_NO_BOOTLOADER := true
 
 # Build Hack
@@ -88,9 +88,9 @@ BOARD_KERNEL_CMDLINE += swiotlb=2048
 
 TARGET_FORCE_PREBUILT_KERNEL := true
 TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_CONFIG := vendor/bengal_defconfig
-TARGET_KERNEL_HEADERS := kernel/xiaomi/spes
-TARGET_KERNEL_SOURCE := kernel/xiaomi/spes
+TARGET_KERNEL_CONFIG := vendor/holi_defconfig
+TARGET_KERNEL_HEADERS := kernel/xiaomi/veux
+TARGET_KERNEL_SOURCE := kernel/xiaomi/veux
 
 # Metadata
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := false
@@ -125,7 +125,7 @@ TARGET_COPY_OUT_PRODUCT := product
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
-TARGET_BOARD_PLATFORM := bengal
+TARGET_BOARD_PLATFORM := holi
 
 # Power
 TARGET_USES_INTERACTION_BOOST := true
