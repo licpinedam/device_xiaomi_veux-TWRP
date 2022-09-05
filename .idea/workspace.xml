@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38dd0737-8d43-4077-b45b-d2af616bf707" name="Changes" comment="rebase: spes =&gt; veux">
-      <changelist_data name="boedhack99" email="boedhack@gmail.com" />
-    </list>
+    <list default="true" id="38dd0737-8d43-4077-b45b-d2af616bf707" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +14,11 @@
     <option name="done" value="true" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="boedhack99 &lt;boedhack@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="twrp" />
@@ -52,12 +55,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config.fs" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="MTHome" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/config.fs" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -95,6 +100,14 @@
       <option name="presentableId" value="Default" />
       <updated>1662356823399</updated>
     </task>
+    <task id="LOCAL-00001" summary="fixup! rebase: spes =&gt; veux">
+      <created>1662401990821</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662401990821</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,7 +135,8 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="fixup! rebase: spes =&gt; veux" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixup! rebase: spes =&gt; veux" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/device_xiaomi_veux_TWRP_S_Tests_from__device_xiaomi_veux_TWRP_" NAME="Tests from 'device_xiaomi_veux-TWRP' Coverage Results" MODIFIED="1662356870660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="Perl5CoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
